@@ -17,7 +17,7 @@
 
 导出简历
 
-预览地址：
+预览地址：https://ouyangbeibei.github.io/resumer/dist/
 
 ### 效果展示：
 登录界面
