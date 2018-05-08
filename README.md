@@ -29,6 +29,8 @@
 预览页面
 ![image.png](https://upload-images.jianshu.io/upload_images/8048507-a3414fd02d384be9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+dist简书文章：https://www.jianshu.com/p/8598a2fa61ac
+
 > A Vue.js project
 
 ## Build Setup
