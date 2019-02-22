@@ -25,7 +25,7 @@ export default new Vuex.Store({
         name: '陈咪咪',
         city: '上海',
         title:'前端',
-        birthday:'1989/11/01'
+        birthday:'19XX/12/01'
       },
       workHistory: [
         {
@@ -54,7 +54,7 @@ export default new Vuex.Store({
           content:'获奖情况'}
       ],
       contacts: [
-        {contact:'phone',content: '13661959616'},
+        {contact:'phone',content: '1366195XXXX'},
         {contact: '邮箱', content: 'cmimi125@qq.com'}
       ],
     }//表单
