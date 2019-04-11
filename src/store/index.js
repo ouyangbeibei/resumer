@@ -56,7 +56,7 @@ export default new Vuex.Store({
       contacts: [
         {contact:'phone',content: '1366195XXXX'},
         {contact: '邮箱', content: 'cmimi125@qq.com'}
-      ],
+      ]
     }//表单
     
   },
