@@ -1,8 +1,8 @@
 <template>
   <div>
-    <MyDialog  v-if="!logined" v-show="signInDialogVisible">
+    <!-- <MyDialog  v-if="!logined" v-show="signInDialogVisible">
       <SignInForm @success="signIn($event)" />
-    </MyDialog>
+    </MyDialog> 数据暂时无法归档，稍等-->
     <div class=page v-bind:class="{previewNode: previewNode}">
       <header>
         <Topbar class="topbar" v-on:preview="preview"/>
