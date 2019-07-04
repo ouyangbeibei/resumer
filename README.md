@@ -21,7 +21,7 @@
 
 ### 效果展示：
 登录界面
-![image.png](https://upload-images.jianshu.io/upload_images/8048507-c75651a6970340e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 编辑页面，可切换不同输入模块。
 ![image.png](https://upload-images.jianshu.io/upload_images/8048507-52a02dd8d1dd48cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
