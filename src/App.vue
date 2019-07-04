@@ -1,8 +1,9 @@
 <template>
   <div>
-    <MyDialog  v-if="!logined" v-show="signInDialogVisible">
+     <!-- <MyDialog  v-if="!logined" v-show="signInDialogVisible">
       <SignInForm @success="signIn($event)" />
-    </MyDialog>
+    </MyDialog>  -->
+    
     <div class=page v-bind:class="{previewNode: previewNode}">
       <header>
         <Topbar class="topbar" v-on:preview="preview"/>
@@ -11,6 +12,7 @@
         <ResumeEditor class="resumeEditor"/>
         <ResumePreview class="preview"/>
       </main>
+      <el-button id="exit" type="primary" size="large" @click="exPview">登录/注册</el-button>
       <el-button id="exit" type="primary" size="large" @click="exPview">退出预览</el-button>
     </div>
   </div>
@@ -107,7 +109,7 @@
   }
   #ResumeEditor{
     min-width: 35%;
-    background: #444;
+    background: rgb(133, 144, 247);
   }
   #ResumePreview{
     flex-grow: 1;

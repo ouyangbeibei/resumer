@@ -24,28 +24,38 @@ export default new Vuex.Store({
       profile: {
         name: '陈咪咪',
         city: '上海',
-        title:'前端',
+        title:'前端工程师',
         birthday:'1989/11/01'
       },
       workHistory: [
         {
-          company:'xx科技有限公司',
-          content:`专注于移动XXX领域，主打产品XXXXX，它将资讯、报纸、杂志、图片、微信等众多内容，按照用户意愿聚合到一起，实现深度个性化 定制。
-              我的主要工作如下:
-              完成既定产品需求。
-               修复 bug。`
+          company:'武汉米色电商',
+          content:`1、熟悉JavaScript、HTML/HTML5、CSS/CSS3、Ajax等前端开发语言。
+2、熟练使用vscode、WebStorm、git命令工具，Photoshop。
+3、熟悉运用Bootstrap、jQuery、Vue等主流前端框架。
+4、可以使用REM，vw/vh，媒体查询等技术制作移动端自适应的网页。
+5、了解node.js后端或服务器语言。
+6、掌握Scss, less的使用，理解MVC, MVVM思想，掌握HTTP基础。
+7、阅读和分析过部分框架源码（jQuery） 。`
         }
       ],
       education: [
         {
-          school:'江苏xx大学',
-          content:'专科'
+          school:'江苏开放大学',
+          content:'大专'
         }
       ],
       projects: [
         {
-          name:'在线简历编辑器',
-          content:'vue'
+          name:'在线简历编辑器-Vue',
+          content: `开发技术：webStorm+HTML + CSS/CSS3 +vue.js + vuxe + webpack + LeanCloud
+项目描述：在线简历编辑器可以登录，选项编辑内容，预览。
+项目技术：1、用户模块2、简历编辑模块
+3、简历预览模块
+4、简历保持模块
+5、运用谷歌浏览器调试工具进行调试。
+          github代码：https://github.com/ouyangbeibei/resumer
+            pc端：https://ouyangbeibei.github.io/resumer/dist/`
         }
       ],
       awards: [

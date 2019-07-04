@@ -10,7 +10,7 @@
     <form @submit.prevent="signIn" v-if="actionType=='login'">
       <div class="row">
         <label>用户名</label>
-        <input class="input_inner" type="text"  required v-model="formData.username">
+        <input class="input_inner" type="text" value="用户名" required v-model="formData.username">
       </div>
       <div class="row">
         <label class="label-password" >密码</label>
@@ -88,7 +88,7 @@ export default {
   }
   .row{
     padding: 10px;
-    font-size: 24px;
+    font-size: 18px;
   }
   .row label{
     margin-right: 10px;
@@ -99,8 +99,8 @@ export default {
   input[type="submit"]{
     height: 40px;
     color: #fff;
-    background-color: #28a745;
-    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+    background-color: #096bfd;
+    background-image: linear-gradient(-180deg, #63a3fd 0%, #468eff 90%);
     display: inline-block;
     width: 30%;
     text-align: center;
@@ -125,11 +125,8 @@ export default {
     -webkit-filter: blur(1px);
     -moz-filter: blur(1px);
     filter: blur(1px);
-    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
-    box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);  
     position: absolute;
-    background: #ccd0d4;
     margin-left: -2rem;
     margin-top: -2rem;
     display: block;
@@ -140,16 +137,15 @@ export default {
   }
   .toggle .label {
     transition: color 300ms ease-out;
-    text-shadow: 1px 1px 3px #ccd0d4, 0 0 0 rgba(0, 0, 0, 0.8), 1px 1px 4px white;
     line-height: 3.1rem;
     text-align: center;
     position: absolute;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
     opacity: 0.9;
     height: 100%;
     width: 100%;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgb(95, 92, 92);
   }
   .toggle input {
     opacity: 0;
@@ -168,7 +164,7 @@ export default {
     border-radius: 4px;
     border: 1px solid #dcdfe6;
     box-sizing: border-box;
-    color: #606266;
+    color: #468eff;
     display: inline-block;
     font-size: inherit;
     height: 40px;
@@ -178,18 +174,12 @@ export default {
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     width: 70%;
   }
-  .toggle input:active ~ .button {
-    box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.4);
-  }
-  .toggle input:active ~ .label {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.45);
-  }
+
   .toggle input:checked ~ .button {
-    box-shadow: 0 5px 10px -4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 0 0 rgba(248, 3, 3, 0.7);
   }
   .toggle input:checked ~ .label {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: rgba(248, 16, 16, 0.9);
   }
 </style>

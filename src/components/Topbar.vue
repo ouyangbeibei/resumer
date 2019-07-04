@@ -54,7 +54,7 @@ export default {
 
 <style scoped lang="scss">
   #topbar{
-    background: white;
+    background: rgb(236, 237, 238);
     box-shadow:0  1px 3px 0 rgba(0,0,0,0.25);
     >.wrapper{
       min-width: 1024px;
@@ -72,7 +72,7 @@ export default {
     .logo{
       font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
       font-size: 24px;
-      color: #000;
+      color: rgb(148, 144, 144);
       display: inline-block;
       padding: 0 20px 0 10px ;
       line-height: 2;
@@ -92,7 +92,7 @@ export default {
   }
   @keyframes rainbow {
   0% {  font-size: 32px;}
-  50% { transform:rotate( 180deg); color: gold;font-size: 32px;}
-  100%  {transform:rotate( -180deg); color: gold;font-size: 32px;}
+  50% { transform:rotate( 180deg); color:rgb(112, 248, 50);font-size: 32px;}
+  100%  {transform:rotate( -180deg); color: #409EFF;font-size: 32px;}
   }
 </style>

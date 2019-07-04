@@ -11,17 +11,7 @@
       </p>
     </section>
 
-    <section data-name="projects" v-show="resume.education">
-      <h2>项目经历</h2>
-      <ol>
-        <li v-for="item in resume.projects">
-          <h3>{{item.name}}</h3>
-          <p v-show="item.content">{{item.content}}</p>
-        </li>
-      </ol>
-    </section>
-
-    <section data-name="workHistory" v-show="resume.workHistory">
+<section data-name="workHistory" v-show="resume.workHistory">
       <h2>工作经历</h2>
       <ol>
         <li v-for="item in resume.workHistory">
@@ -40,6 +30,17 @@
         </li>
       </ol>
     </section>
+
+    <section data-name="projects" v-show="resume.education">
+      <h2>项目经历</h2>
+      <ol>
+        <li v-for="item in resume.projects">
+          <h3>{{item.name}}</h3>
+          <p v-show="item.content">{{item.content}}</p>
+        </li>
+      </ol>
+    </section>
+
 
     <section data-name="awards" v-show="resume.awards">
       <h2>获奖情况</h2>
@@ -85,9 +86,9 @@
   }
   #ResumePreview{ 
     background: #fff;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
     padding: 2em;
-    color: #333;
+    color: rgb(8, 8, 8);
     line-height: 1.2;
     overflow: auto;
     border-radius: 10px;
@@ -97,8 +98,8 @@
     section + section { margin-top: 3em; }
     p{ white-space: pre-line; }//自动换行
     section {
-      > h2:first-child{ background: #ddd; display: inline-block; padding: .2em; 
-        margin-bottom: .5em;
+      > h2:first-child{ background: #eeeeee; display: inline-block; padding: .2em; 
+        margin-bottom: .5em; border-radius: .07em; color: #444444;font-size: 17pt;
       }
     }
     span{
@@ -115,7 +116,7 @@
     section[data-name="awards"]{
       li +li { margin-top: 2em; }
       li{
-        h3 { border-bottom: 1px solid #999; padding-bottom: .5em; margin-bottom: .5em; }
+        h3 { border-bottom: 1px solid #444444; padding-bottom: .5em; margin-bottom: .5em; }
       }
     }
     section[data-name="eductaion"]{

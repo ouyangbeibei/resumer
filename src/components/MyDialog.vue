@@ -2,7 +2,7 @@
   <div class="dialogWrapper">
     <div class="dialog">
       <header>
-        <img src="https://upload-images.jianshu.io/upload_images/8048507-aac4fa748a03cb04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="v-icon">
+        <img src="https://resumer-vue.oss-cn-beijing.aliyuncs.com/vue1.png" alt="v-icon">
       </header>
       <main>
         <slot></slot>
@@ -29,7 +29,7 @@
 <style scoped lang="scss">
   .dialogWrapper{
     position: fixed;
-    background: url(https://upload-images.jianshu.io/upload_images/8048507-c012e82fdab38375.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240);
+    background: url(https://resumer-vue.oss-cn-beijing.aliyuncs.com/timg%20%282%29.jpg) no-repeat ;
     background-size: cover;
     top: 0;
     left: 0;
@@ -50,16 +50,15 @@
       margin-top: 25px;
       text-align: center;
       > img{
-      width: 64px;
-      height: 64px;
-      transition: all 1.5s;
+      width: 10em;
+      transition: all 1.5s ;
       -webkit-transition: all 1.5s;
       -moz-transition: all 1.5s;
       -ms-transition: all 1.5s;
       -o-transition: all 1.5s;
       }
       > img:hover{
-        transform: rotate(180deg);
+        transform: rotate(12deg) scale(89,5);
         -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
@@ -67,7 +66,6 @@
       }
     }
     >main{
-      margin-top: 15px;
       padding: 32px;
     }
   }
