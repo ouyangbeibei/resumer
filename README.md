@@ -17,17 +17,19 @@
 
 导出简历
 
-预览地址：
+预览地址：https://ouyangbeibei.github.io/resumer/dist/
 
 ### 效果展示：
 登录界面
-![image.png](https://upload-images.jianshu.io/upload_images/8048507-c75651a6970340e1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 编辑页面，可切换不同输入模块。
 ![image.png](https://upload-images.jianshu.io/upload_images/8048507-52a02dd8d1dd48cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 预览页面
 ![image.png](https://upload-images.jianshu.io/upload_images/8048507-a3414fd02d384be9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+dist简书文章：https://www.jianshu.com/p/8598a2fa61ac
 
 > A Vue.js project
 

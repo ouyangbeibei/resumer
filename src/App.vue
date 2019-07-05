@@ -1,9 +1,15 @@
 <template>
   <div>
+<<<<<<< HEAD
      <!-- <MyDialog  v-if="!logined" v-show="signInDialogVisible">
       <SignInForm @success="signIn($event)" />
     </MyDialog>  -->
     
+=======
+    <!-- <MyDialog  v-if="!logined" v-show="signInDialogVisible">
+      <SignInForm @success="signIn($event)" />
+    </MyDialog> 数据暂时无法归档，稍等-->
+>>>>>>> 758f98a9360a57fa5b845460b385070ff96286a0
     <div class=page v-bind:class="{previewNode: previewNode}">
       <header>
         <Topbar class="topbar" v-on:preview="preview"/>
