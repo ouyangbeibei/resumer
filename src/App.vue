@@ -5,7 +5,6 @@
       <SignInForm @success="signIn($event)" />
     </MyDialog>  -->
     
-  
     <div class=page v-bind:class="{previewNode: previewNode}">
       <header>
         <Topbar class="topbar" v-on:preview="preview"/>
